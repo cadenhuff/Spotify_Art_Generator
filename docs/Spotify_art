@@ -1,0 +1,2 @@
+User uploads playlist from Spotify that needs a cover. Using either spotify itself, or a seperate text anyalis API, the lyrics of each song are anylsed to
+produce an English string that describes the "mood" of the playlist. Then using an AI art generator, a playlist cover is created.
