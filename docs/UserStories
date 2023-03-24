@@ -1,6 +1,10 @@
 User Login User Story:
-
-
+  As a user, I want to be able to create and login into an account where I can store the art that I have previously generated and albums that I have 
+  previously uploaded. To do this, I want to to be able to use my email to create a verified profile that is password protected. Upon entering the application,
+  I am able to sign into my account, or create an account. The sign in page asks for my username and password and gives me the ability to reset my password if I forget 
+  it by sending me an email to reset password. The create an account page asks for my email, a username and a password. When creating my account, if my email 
+  or username is already in use, I will be unable to create an account and notified. When signing in, if I get my password wrong, an error message will display. As a 
+  signed in user, I will be able to access my profile account where I can access previous art works that I have generated and link to my Spotify account. 
 
 
 
