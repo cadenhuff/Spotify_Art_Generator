@@ -26,11 +26,22 @@ If the user accidentally selects a wrong playlist, they can stop generating and 
 
 
 Gen Art User Story
-
-
-
-
-
+    Once user has logged in, linked a Spotify account, and selected a playlist, the user will be presented with
+    the option to generate art for that selected playlist based on sentiment and mood that will be gathered from
+    the Spotify API. They will have options to generate art based off any number of tracks from the playlist or entire
+    playlist. They may select some tracks to use or, for example, set app to take the first 5 tracks. The process 
+    will be to press a button to generate the playlist art picture. When everything goes right, the server should 
+    send a picture to the client and their screen will update with a potential picture that they may choose to download,
+    or there will be another button to regenerate a new picture. Once the new picture is regenerated, it will appear on 
+    their screen again. If something were to go wrong, the client would be presented with an error screen and should be 
+    prompted to reselect the playlist and try again.
 
 
 Download Art User Story
+    Once the user has logged in, linked a Spotify account, selected a playlist, and generated satisfactory art
+    for that playlist, the user will have the option to save and download the generated art as a file stored
+    locally. There will be a button to click if they want to download and it will prompt them with a screen
+    asking which file format they would like, name of picture, and where they would like to download the file 
+    locally (e.g. download as a .png file to desktop or as .jpeg file to downloads folder). If everything goes
+    right, it will download into the desired location in the desired format. If the download were to go wrong, it
+    will prompt the user with an error message and tell them to please wait and try again.
