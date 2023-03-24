@@ -17,7 +17,10 @@ Link to Spotify User Story:
 
 
 Select Playlist User Story:
-
+Once a user logs into their Spotify account, the user will be able to upload a link to one of their Spotify playlists. 
+A user can select a specific playlist that they are wishing to generate an arkwork for through their Spotify account. 
+If the playlist link doesn't upload properly, an error message will pop up asking the user to re-upload their link. 
+If the user accidentally selects a wrong playlist, they can stop generating and try re-uploading.
 
 
 
