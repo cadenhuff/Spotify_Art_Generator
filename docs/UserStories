@@ -9,7 +9,10 @@ User Login User Story:
 
 
 Link to Spotify User Story:
-
+  As a signed in user, I want to be able to link to my Spotify account in order to access my playlists that I want to generate art for. To do this, I will be
+  able to link to my Spotify account after creating an account. I will be able to link to my spotify through my profile page, or will be asked to when I go to 
+  generate art. When linking my account, if the Spotify account does not exist or the authorization doesn't work, I will be given an error message and prompted
+  to try again.
 
 
 
