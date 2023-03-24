@@ -19,11 +19,12 @@ Gen Art User Story
     Once user has logged in, linked a Spotify account, and selected a playlist, the user will be presented with
     the option to generate art for that selected playlist based on sentiment and mood that will be gathered from
     the Spotify API. They will have options to generate art based off any number of tracks from the playlist or entire
-    playlist. The process will be to press a button to generate the playlist art picture. When everything
-    goes right, the server should send a picture to the client and their screen will update with a potential
-    picture that they may choose to download, or there will be another button to regenerate a new picture. Once
-    the new picture is regenerated, it will appear on their screen again. If something were to go wrong, the client
-    would be presented with an error screen and should be prompted to reselect the playlist and try again.
+    playlist. They may select some tracks to use or, for example, set app to take the first 5 tracks. The process 
+    will be to press a button to generate the playlist art picture. When everything goes right, the server should 
+    send a picture to the client and their screen will update with a potential picture that they may choose to download,
+    or there will be another button to regenerate a new picture. Once the new picture is regenerated, it will appear on 
+    their screen again. If something were to go wrong, the client would be presented with an error screen and should be 
+    prompted to reselect the playlist and try again.
 
 
 Download Art User Story
