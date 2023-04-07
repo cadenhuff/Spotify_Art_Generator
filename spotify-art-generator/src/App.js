@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react';
 import axios from 'axios';
 
 function App() {
-  const CLIENT_ID = "+++++++++++++++++++++++++++++"
+  const CLIENT_ID = "7bcd29159d7d4a8990c1048b8c08a19a"
   const REDIRECT_URI = "http://localhost:3000"
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
   const RESPONSE_TYPE = "token"
@@ -65,10 +65,14 @@ function App() {
                       to Spotify</a>
                   : <button onClick={logout}>Logout</button>}
 
+              {token ? 
                 <form onSubmit={searchArtists}>
                     <input type="text" onChange={e => setSearchKey(e.target.value)}/>
                     <button type={"submit"}>Search</button>
                 </form>
+
+                : <h2>Please login</h2>
+              }
 
                 {renderArtists()}
 
