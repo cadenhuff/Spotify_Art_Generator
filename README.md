@@ -7,6 +7,7 @@ Make sure to substitute in your own Spotify and OpenAI API keys, Firebase Config
     spotify-art-generator/backend/.env
     spotify-art-generator/backend/serviceAccountKey.json
 
-
+Video Demo:
+    https://youtu.be/LMNhDAY94AQ
 
 Developed by Thanh Huynh, Caden Huffman, and Jung (Jenny) Youjung
