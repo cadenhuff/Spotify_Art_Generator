@@ -1,47 +1,42 @@
 User Login User Story:
-  As a user, I want to be able to create and login into an account where I can store the art that I have previously generated and albums that I have 
-  previously uploaded. To do this, I want to to be able to use my email to create a verified profile that is password protected. Upon entering the application,
-  I am able to sign into my account, or create an account. The sign in page asks for my username and password and gives me the ability to reset my password if I forget 
-  it by sending me an email to reset password. The create an account page asks for my email, a username and a password. When creating my account, if my email 
-  or username is already in use, I will be unable to create an account and notified. When signing in, if I get my password wrong, an error message will display. As a 
-  signed in user, I will be able to access my profile account where I can access previous art works that I have generated and link to my Spotify account. 
+    As a user, I want to log in to my Spotify account through the app, so that I can view and analyze my playlists. 
+    If the login fails due to incorrect credentials, I want to be informed of the error and given the option to try 
+    again or recover my account. The sign in page asks for my Spotify username and password and gives me the ability 
+    to reset my password if I forget it by sending me an email to reset password. The Spotify create an account page
+    asks for my email, a username and a password. When creating my account, if my email or username is already in 
+    use, I will be unable to create an account and notified.
 
-
-
-Link to Spotify User Story:
-  As a signed in user, I want to be able to link to my Spotify account in order to access my playlists that I want to generate art for. To do this, I will be
-  able to link to my Spotify account after creating an account. I will be able to link to my spotify through my profile page, or will be asked to when I go to 
-  generate art. When linking my account, if the Spotify account does not exist or the authorization doesn't work, I will be given an error message and prompted
-  to try again.
-
+  
+Spotify User Dashboard Story:
+    As a user, I want to view a list of all my playlists with a display for each Playlist Name, Playlist Cover, Playlist
+    Sentiment Analysis, and the first five songs in each playlist, so that I can quickly see which playlists I might 
+    want to listen to depending on my current mood. If there is an error in loading my playlists, I want to be informed
+    of the error and given the option to refresh the page or try again later.
 
 
 Select Playlist User Story:
-  Once a user logs into their Spotify account, the user will be able to upload a link to one of their Spotify playlists. 
-  A user can select a specific playlist that they are wishing to generate an arkwork for through their Spotify account. 
-  If the playlist link doesn't upload properly, an error message will pop up asking the user to re-upload their link. 
-  If the user accidentally selects a wrong playlist, they can stop generating and try re-uploading.
+    As a user, I want to be able to log into my Spotify account and see all of my playlists displayed on the dashboard. 
+    From there, I want to be able to easily select a specific playlist that I would like to generate artwork for. 
+    In the event that the selection process doesn't redirect me properly, I would like to see a clear error message 
+    that prompts me to try again or pick a different playlist. If I accidentally select the wrong playlist, I would 
+    like to be able to navigate back to the dashboard and choose a new one without any issues.
 
 
+Generating Art User Story
+    As a user, once I have logged into my Spotify account and selected a playlist, I should be able to generate art 
+    for that selected playlist based on its sentiment and mood gathered from the playlist's audio features. I can 
+    generate art as many times as I desire by pressing a button. If everything goes right, the server should send a 
+    picture to my screen and update it with a potential picture that I can choose to download by double-clicking it 
+    and clicking "Save Image As", or I can regenerate a new picture by pressing another button. Whenever a new 
+    picture is regenerated, it should appear on my screen again. If something were to go wrong, an error screen 
+    will be presented to me, and I will be prompted to reselect the playlist and try again.
 
 
-Gen Art User Story
-    Once user has logged in, linked a Spotify account, and selected a playlist, the user will be presented with
-    the option to generate art for that selected playlist based on sentiment and mood that will be gathered from
-    the Spotify API. They will have options to generate art based off any number of tracks from the playlist or entire
-    playlist. They may select some tracks to use or, for example, set app to take the first 5 tracks. The process 
-    will be to press a button to generate the playlist art picture. When everything goes right, the server should 
-    send a picture to the client and their screen will update with a potential picture that they may choose to download,
-    or there will be another button to regenerate a new picture. Once the new picture is regenerated, it will appear on 
-    their screen again. If something were to go wrong, the client would be presented with an error screen and should be 
-    prompted to reselect the playlist and try again.
-
-
-Download Art User Story
-    Once the user has logged in, linked a Spotify account, selected a playlist, and generated satisfactory art
-    for that playlist, the user will have the option to save and download the generated art as a file stored
-    locally. There will be a button to click if they want to download and it will prompt them with a screen
-    asking which file format they would like, name of picture, and where they would like to download the file 
-    locally (e.g. download as a .png file to desktop or as .jpeg file to downloads folder). If everything goes
-    right, it will download into the desired location in the desired format. If the download were to go wrong, it
-    will prompt the user with an error message and tell them to please wait and try again.
+Previously Generated Art User Story
+    As a user, I want to be able to view all previously generated art pieces for each playlist at the bottom of the 
+    selected playlist's page. After I have generated a piece of artwork for a playlist, I should be able to see it again 
+    at any time in the future. When I navigate to the selected playlist's page, I should see a section at the bottom of 
+    the page that displays all of the previously generated art pieces for that playlist. If there are too many art pieces 
+    to display at once, I should be able to scroll through them using a scrollbar or pagination. If for any reason I am 
+    not able to view all previously generated art pieces for a playlist, I should see an error message and be prompted 
+    to try again later.
