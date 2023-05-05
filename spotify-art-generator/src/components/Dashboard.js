@@ -78,7 +78,7 @@ const Dashboard = () => {
   };
 
   const handleLogout = () => {
-    localStorage.removeItem('spotify_access_token');
+    localStorage.removeItem('spotify_access_token'); //remove access token from local storage
     navigate('/'); // Navigate back to the login page
   };
 

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import 'firebase/compat/auth';
 import '../styles/styles.css';
 import { auth, signInWithCustomToken } from '../utils/firebase'
 
