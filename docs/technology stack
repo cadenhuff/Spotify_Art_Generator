@@ -15,3 +15,7 @@ we evaluated Firebase's real-time database feature as well as its APIs.
 Firebase provides a range of APIs for integrating with the front-end framework we used 
 which was React. 
 Choosing Firebase helped us save development time and effort. 
+We used React as our front-end-technology because it has a large and active community
+of developers who contribute to the library. Therefore, there are many resources available to help people learn how to use React effectively. 
+Also, React uses a syntax extension called JSX which allows us to write HTML-like code within our JavaScript code. 
+This makes it easier to write and maintain our code and also help with code readability. 
