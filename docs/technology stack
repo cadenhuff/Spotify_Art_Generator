@@ -1,0 +1,17 @@
+We considered using Firebase and MongoDB for our backend and ended up using 
+Firebase backend to store all generated images per Spotify user. 
+Firebase is a backend-as-a-service platform 
+that provides real-time databases, authentication, hosting, storage and more. 
+MongoDB is a document based NoSQL database 
+designed for handling unstructured data. 
+We decided to use Firebase because it is conveneint to run things quickly 
+wihtout having to worry about setting up multiple services. 
+Also, Firebase's real-time database feature is designed for real time synchronization 
+of data between devices. 
+While MongoDB can be used for real time applications as well, 
+it may require additional setup and configuration. 
+Once we had a clear understanding of our project idea and requirements, 
+we evaluated Firebase's real-time database feature as well as its APIs. 
+Firebase provides a range of APIs for integrating with the front-end framework we used 
+which was React. 
+Choosing Firebase helped us save development time and effort. 
